@@ -26,7 +26,7 @@
 - **Multimodal Fusion**:  
   - **Early Fusion**: Combines features from all modalities before feeding into the model.  
   - **Late Fusion** *(also supported)*: Independent models for each modality; final decision made by combining individual outputs.  
-    - *traning scripts are given in src for individual model traning and save in models/ for future use *
+    - traning scripts are given in src/ for traning individual model
 
 ---
 
