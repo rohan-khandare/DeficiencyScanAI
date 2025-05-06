@@ -26,7 +26,7 @@
 - **Multimodal Fusion**:  
   - **Early Fusion**: Combines features from all modalities before feeding into the model.  
   - **Late Fusion** *(also supported)*: Independent models for each modality; final decision made by combining individual outputs.  
-    - *Find trained models in the `/models` directory.*
+    - *traning scripts are given in src for individual model traning and save in models/ for future use *
 
 ---
 
@@ -42,7 +42,7 @@ DeficiencyScanAI/
 │   ├── combine.py                 # Script to merge all three modalities into one dataset
 │   └── questionnaire_model/      # Combined and preprocessed dataset
 │
-├── models/                        # Saved and pre-trained models
+├── models/                        # Save the trained models here 
 │   ├── efficientnet_nutritional_deficiency_tpu.h5       # Fine-tuned EfficientNet model (HDF5 format)
 │   ├── efficientnet_nutritional_deficiency_tpu.keras    # Fine-tuned model in Keras format
 │   ├── best_random_forest_model.pkl                     # Trained model for questionnaire data
